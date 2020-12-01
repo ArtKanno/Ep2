@@ -18,7 +18,7 @@ class Datagrama
         //Contructors
         Datagrama(int origem, int destino, int ttl, Segmento* dado);
         //Destructor
-        virtual ~Datagrama();
+        virtual ~Datagrama();//ola
 
         //Getters
         virtual int getOrigem();
